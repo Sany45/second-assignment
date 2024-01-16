@@ -176,6 +176,7 @@
 }
 
 /* tour section end*/
+/*start destination section*/
 .destination {
   width: 80%;
   margin: 0 auto;
@@ -244,8 +245,8 @@
 .Bandarban {
   grid-area: Bandarban;
 } 
-
-
+/*start destination section*/
+/*start why choose section*/
 .travel-card {
   width: 80%;
   margin: 0 auto;
@@ -282,3 +283,138 @@
   color: #5a5a5d;
   line-height: 26px;
 }
+/*end why choose section*/
+/*start newslatter section*/
+.newsLetter{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding-bottom: 60px;
+ }
+ .formHeading{
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+ }
+ .formDes{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; 
+    padding: 10px 0 29px 0;
+    border-bottom: 2px solid rgba(19, 19, 24, 0.10);
+
+ }
+ .formSection{
+    max-width: 40%;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    padding: 40px 50px;
+ }
+
+ form{
+    margin-top: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+ }
+ form > input{
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    border: 0;
+    padding: 16px 20px;
+ }
+
+ form > input:focus{
+    outline: none;
+ }
+
+ .formBtn{
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+    border-radius: 8px;
+    background: #FF5400;
+    padding: 14px 0;
+    border: 0;
+ }
+ .imgSec{
+    max-width: 60%;
+    position: relative;
+ }
+
+ .imgSec >img{
+    max-width: 100%;
+ }
+ .discout{
+    position: absolute;
+    border-radius: 16px;
+    background: #FF5400;
+    padding: 20px 30px;
+    transform: rotate(-30deg);
+    bottom: 60px;
+    right: 6px;
+ }
+ .discoutTitle{
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+ }
+ .offer{
+    color: #FFF;
+    font-size: 26px;
+    font-weight: 800;
+ }
+
+/*start newslatter section*/
+ /*start footer section*/
+ footer{
+ background: rgba(19, 19, 24, 0.05);
+ padding: 0 10%;
+}
+.footerContent{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+gap: 20px;
+padding-top: 50px;
+padding-bottom: 40px;
+}
+.logo{
+color: #131318;
+font-size: 32px;
+font-weight: 800;
+}
+.logoColor{
+color: #FF5400;
+font-size: 32px;
+font-weight: 800;
+
+}
+.socialMedia{
+display: flex;
+gap: 20px;
+}
+.socialMedia>a{
+ font-size: 20px;
+ color: #131318;
+}
+.para4{
+color: #5A5A5D;
+text-align: center;
+font-size: 16px;
+font-weight: 400;
+}
+.crText{
+ border-top: 2px solid  rgba(19, 19, 24, 0.10);
+ padding: 30px 0 50px 0;
+ color: #131318;
+ font-size: 16px;
+ font-weight: 300;
+ text-align: center;
+}
+/*end footer section*/

@@ -63,4 +63,26 @@
     font-size: 14px;
     line-height: 24px;
   }
+  .newsLetter{
+    flex-direction: column;
+}
+
+.formSection {
+    max-width: 100%;
+   padding: 40px 30px;
+}
+.imgSec {
+    max-width: 100%;
+
+}
+.discout {
+    border-radius: 10px;
+    bottom: 50px;
+}
+.discoutTitle {
+    font-size: 14px;
+}
+.offer{
+    font-size: 18px;
+}
  }
